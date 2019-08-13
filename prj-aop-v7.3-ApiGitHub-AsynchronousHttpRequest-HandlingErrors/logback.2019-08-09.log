@@ -1,0 +1,76 @@
+12:20:44.662 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 20204 (C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j\target\classes started by a84s in C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j) 
+12:20:44.669 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:20:44.671 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:20:49.098 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.859 seconds (JVM running for 6.238) 
+12:22:14.546 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+12:22:14.551 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+12:22:14.555 [http-nio-8181-exec-1] INFO  c.e.aop.controller.NoteController -  *** createNote  
+12:22:16.515 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.NoteController : createNoteLog( ) - Input Arguments : [{"id":null,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":null,"updatedAt":null}] 
+12:22:16.533 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.NoteController : createNoteLog( ) - Response : [{"id":35,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":1565346136522,"updatedAt":1565346136522}] 
+12:22:18.454 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+12:22:18.455 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+12:22:18.455 [http-nio-8181-exec-4] INFO  c.e.aop.controller.NoteController -  *** updateNote  
+12:22:21.357 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -  ---------- Inside AROUND ------------  
+12:22:21.357 [http-nio-8181-exec-5] INFO  c.e.aop.controller.NoteController -  *** getNoteById  
+12:22:21.362 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -   ---------- Time taken by execution(Note com.example.aop.controller.NoteController.getNoteById(Long)) is 5  
+12:26:15.714 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 28556 (C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j\target\classes started by a84s in C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j) 
+12:26:15.718 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:26:15.720 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:26:19.356 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.033 seconds (JVM running for 5.232) 
+12:26:55.929 [http-nio-8181-exec-2] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+12:26:55.933 [http-nio-8181-exec-2] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+12:26:55.936 [http-nio-8181-exec-2] INFO  c.e.aop.controller.NoteController -  *** createNote  
+12:26:57.506 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.NoteController : createNoteLog( ) - Input Arguments : [{"id":null,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":null,"updatedAt":null}] 
+12:26:57.517 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.NoteController : createNoteLog( ) - Response : [{"id":37,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":1565346417508,"updatedAt":1565346417508}] 
+12:26:59.723 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+12:26:59.723 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+12:26:59.724 [http-nio-8181-exec-4] INFO  c.e.aop.controller.NoteController -  *** updateNote  
+18:55:25.095 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 27652 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+18:55:25.097 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:55:25.099 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+19:48:22.404 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 22060 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+19:48:22.405 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+19:48:22.407 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+19:50:58.548 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 31540 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+19:50:58.550 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+19:50:58.551 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:01:33.911 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 23044 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:01:33.913 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:01:33.914 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:08:04.537 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 22616 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:08:04.539 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:08:04.541 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:17:34.615 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 30496 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:17:34.616 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:17:34.617 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:21:19.076 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 16816 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:21:19.078 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:21:19.079 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:23:46.182 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 11684 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:23:46.183 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:23:46.185 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:35:21.601 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 18476 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:35:21.603 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:35:21.604 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:38:18.720 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 23188 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:38:18.722 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:38:18.723 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:39:29.705 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 28408 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+20:39:29.707 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:39:29.708 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+22:11:43.745 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 16564 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+22:11:43.746 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+22:11:43.748 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+22:18:30.402 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 27464 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+22:18:30.404 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+22:18:30.406 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+22:31:08.393 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 14248 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+22:31:08.394 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+22:31:08.396 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+22:31:12.251 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.142 seconds (JVM running for 5.333) 
+23:47:45.999 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 22220 (C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy\target\classes started by a84s in C:\dev\nexi\prj-aop-v5-ExceptionHandler-strategy) 
+23:47:46.001 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+23:47:46.003 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+23:50:15.776 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 150.178 seconds (JVM running for 152.859) 
+23:50:29.675 [http-nio-8181-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.PostController : create( ) - Input Arguments : ["josue",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 
+23:56:44.403 [http-nio-8181-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.PostController : create( ) - Response : ["josue",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 

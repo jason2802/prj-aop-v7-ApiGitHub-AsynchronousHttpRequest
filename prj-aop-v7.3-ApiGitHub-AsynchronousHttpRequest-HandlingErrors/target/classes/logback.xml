@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+    	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    		<!-- OPTION 1 :  -->
+    		<!-- 
+    		<encoder>
+    			<Pattern>.%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+    			</Pattern>
+    		</encoder>
+    		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+    			<level>TRACE</level>
+    		</filter> 
+    		-->
+    		
+    		
+    		<!-- OPTION 2 : This layout creates a String from a log message based on a conversion pattern.
+				The pattern is quite flexible and allows declaring several conversion specifiers – 
+				which can control the characteristics of the output String such as length and color 
+				and can also insert values into the output String.
+				
+				Let’s see an example of a PatternLayout that prints the name of the logging thread in green, 
+				the logger name with a length of 50 characters and displays the log levels using different colors, 
+				with the %highlight modifier:-->
+				
+		    		<!-- SEEMS LIKE PatternLayout is deprecated
+			    		<layout class="ch.qos.logback.classic.PatternLayout">
+					        <pattern>%d %green([%thread]) %highlight(%level) %logger{50} - %msg%n</pattern>
+					    </layout> 
+				    -->		    
+			    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			        <pattern>%d %green([%thread]) %highlight(%level) %logger{50} - %msg%n</pattern>
+			    </encoder>
+		    
+    	</appender>
+
+      	<appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    		<File>./MyCustomLogFolder/logback.log</File>
+    		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+    		    <!-- daily rollover -->
+    			<FileNamePattern>logback.%d{yyyy-MM-dd}.log</FileNamePattern>
+
+    			<!-- keep 30 days' worth of history -->
+    			<maxHistory>30</maxHistory>			
+    		</rollingPolicy>
+
+    		<encoder>
+    			<Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
+    		</encoder> 	    
+      	</appender>
+      	
+      	<appender name="minuteRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+    		    <!-- rollover every minute -->
+    			<FileNamePattern>c:\\LogsCustomSlf4Temp\minutes\logback-minute.%d{yyyy-MM-dd_HH-mm}.log</FileNamePattern>
+
+    			<!-- keep 30 minutes' worth of history -->
+    			<maxHistory>30</maxHistory>			
+    		</rollingPolicy>
+
+    		<encoder>
+    			<Pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</Pattern>
+    		</encoder> 	    
+      	</appender>  	
+
+	    <appender name="emailAppender" class="ch.qos.logback.classic.net.SMTPAppender">
+	        <smtpHost>smtp.mailgun.org</smtpHost>
+	        <smtpPort>25</smtpPort>
+	        <username>123</username>
+	        <password>123</password>
+	        <to>josue.fako@gmail.com</to>
+	        <to>fako02@hotmail.com</to>
+	        <from>fako02@yahoo.com</from>
+	        <subject>TESTING LOGS SLF4J: %logger{20} - %m</subject>
+	
+	        <layout class="ch.qos.logback.classic.html.HTMLLayout"/>
+	    </appender>
+
+    	<logger name="com.example.aop" additivity="false">
+    	    <level value="DEBUG" />
+    		<appender-ref ref="dailyRollingFileAppender"/>
+    		<appender-ref ref="minuteRollingFileAppender"/>
+    		<appender-ref ref="consoleAppender" />
+    	</logger>
+	
+		<!-- <logger name="com.example.aop.controller" level="error" additivity="false">
+	        <appender-ref ref="emailAppender"/>
+	    </logger> -->
+    
+    	<root>
+    		<level value="INFO" />
+    		<appender-ref ref="consoleAppender" />
+    		<appender-ref ref="emailAppender" />
+    	</root>
+    	
+    	
+    </configuration>
