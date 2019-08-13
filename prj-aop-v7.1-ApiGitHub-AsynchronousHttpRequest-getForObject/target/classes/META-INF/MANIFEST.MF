@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest
+Implementation-Version: 1.0.0
+Built-By: a84s
+Implementation-Vendor-Id: com.example.aop
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest
+Created-By: Maven Integration for Eclipse
+

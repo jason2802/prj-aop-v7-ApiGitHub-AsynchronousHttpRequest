@@ -1,0 +1,38 @@
+18:29:06.454 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 28812 (C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j\target\classes started by a84s in C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j) 
+18:29:06.454 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:29:06.456 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:29:09.954 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 3.836 seconds (JVM running for 5.266) 
+18:29:19.105 [http-nio-8181-exec-2] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+18:29:19.107 [http-nio-8181-exec-2] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+18:29:19.110 [http-nio-8181-exec-2] INFO  c.e.aop.controller.NoteController -  *** createNote  
+18:29:21.331 [http-nio-8181-exec-4] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.NoteController : createNoteLog( ) - Input Arguments : [{"id":null,"title":"My notes - Log with AOP - 19 ","content":"Spring Boot is useful - Log with AOP - 19","createdAt":null,"updatedAt":null}] 
+18:29:21.342 [http-nio-8181-exec-4] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.NoteController : createNoteLog( ) - Response : [{"id":31,"title":"My notes - Log with AOP - 19 ","content":"Spring Boot is useful - Log with AOP - 19","createdAt":1565281761333,"updatedAt":1565281761333}] 
+18:29:23.375 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+18:29:23.375 [http-nio-8181-exec-3] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+18:29:23.375 [http-nio-8181-exec-3] INFO  c.e.aop.controller.NoteController -  *** updateNote  
+18:29:26.353 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -  ---------- Inside AROUND ------------  
+18:29:26.354 [http-nio-8181-exec-5] INFO  c.e.aop.controller.NoteController -  *** getNoteById  
+18:29:26.358 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -   ---------- Time taken by execution(Note com.example.aop.controller.NoteController.getNoteById(Long)) is 4  
+18:29:28.545 [http-nio-8181-exec-6] DEBUG c.e.a.a.MyCustomConfigurationAspect -  ---------- Inside AROUND ------------  
+18:29:28.545 [http-nio-8181-exec-6] INFO  c.e.aop.controller.NoteController -  *** getAllNotes  
+18:29:28.671 [http-nio-8181-exec-6] DEBUG c.e.a.a.MyCustomConfigurationAspect -   ---------- Time taken by execution(List com.example.aop.controller.NoteController.getAllNotes()) is 126  
+18:29:33.267 [http-nio-8181-exec-10] INFO  c.e.aop.controller.NoteController -  *** deleteNote  
+18:33:37.069 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 11984 (C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j\target\classes started by a84s in C:\dev\nexi\prj-aop-v4-Logging-and-Authentication-Strategy-slf4j) 
+18:33:37.070 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:33:37.071 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:33:40.580 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 3.789 seconds (JVM running for 4.959) 
+18:34:41.337 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+18:34:41.343 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+18:34:41.345 [http-nio-8181-exec-1] INFO  c.e.aop.controller.NoteController -  *** createNote  
+18:34:43.001 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.NoteController : createNoteLog( ) - Input Arguments : [{"id":null,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":null,"updatedAt":null}] 
+18:34:43.012 [http-nio-8181-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.NoteController : createNoteLog( ) - Response : [{"id":33,"title":"My notes - Log with AOP - 31 ","content":"Spring Boot is useful - Log with AOP - 31","createdAt":1565282083004,"updatedAt":1565282083004}] 
+18:34:45.066 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+18:34:45.066 [http-nio-8181-exec-4] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+18:34:45.067 [http-nio-8181-exec-4] INFO  c.e.aop.controller.NoteController -  *** updateNote  
+18:34:47.286 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -  ---------- Inside AROUND ------------  
+18:34:47.286 [http-nio-8181-exec-5] INFO  c.e.aop.controller.NoteController -  *** getNoteById  
+18:34:47.290 [http-nio-8181-exec-5] DEBUG c.e.a.a.MyCustomConfigurationAspect -   ---------- Time taken by execution(Note com.example.aop.controller.NoteController.getNoteById(Long)) is 4  
+18:34:49.744 [http-nio-8181-exec-6] DEBUG c.e.a.a.MyCustomConfigurationAspect -  ---------- Inside AROUND ------------  
+18:34:49.744 [http-nio-8181-exec-6] INFO  c.e.aop.controller.NoteController -  *** getAllNotes  
+18:34:49.863 [http-nio-8181-exec-6] DEBUG c.e.a.a.MyCustomConfigurationAspect -   ---------- Time taken by execution(List com.example.aop.controller.NoteController.getAllNotes()) is 119  
+18:34:55.083 [http-nio-8181-exec-9] INFO  c.e.aop.controller.NoteController -  *** deleteNote  
