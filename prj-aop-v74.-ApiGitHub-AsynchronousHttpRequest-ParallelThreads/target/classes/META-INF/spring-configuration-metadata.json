@@ -1,0 +1,35 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.aop.configuration.RestServiceConfig",
+      "name": "restservice.users",
+      "type": "com.example.aop.configuration.RestServiceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "restservice.github-endpoint",
+      "description": "A description for 'restservice.github-endpoint'",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.aop.configuration.RestServiceConfig",
+      "name": "restservice.users.github-base-endpoint",
+      "description": "A description for 'restservice.users.github-base-endpoint'",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.aop.configuration.RestServiceConfig",
+      "name": "restservice.users.github-suffix-org",
+      "description": "A description for 'restservice.users.github-suffix-org'",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.aop.configuration.RestServiceConfig",
+      "name": "restservice.users.github-suffix-repo",
+      "description": "A description for 'restservice.users.github-suffix-repo'",
+      "type": "java.lang.String"
+    }
+  ]
+}

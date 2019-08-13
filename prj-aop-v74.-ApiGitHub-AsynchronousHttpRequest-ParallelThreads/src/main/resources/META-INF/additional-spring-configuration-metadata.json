@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "restservice.github-endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'restservice.github-endpoint'"
+  },
+  {
+    "name": "restservice.users.github-base-endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'restservice.users.github-base-endpoint'"
+  },
+  {
+    "name": "restservice.users.github-suffix-repo",
+    "type": "java.lang.String",
+    "description": "A description for 'restservice.users.github-suffix-repo'"
+  },
+  {
+    "name": "restservice.users.github-suffix-org",
+    "type": "java.lang.String",
+    "description": "A description for 'restservice.users.github-suffix-org'"
+  }
+]}

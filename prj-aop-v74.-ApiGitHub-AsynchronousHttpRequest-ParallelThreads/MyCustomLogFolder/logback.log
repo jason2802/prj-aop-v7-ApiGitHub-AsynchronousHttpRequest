@@ -1,0 +1,39 @@
+09:00:55.410 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 11868 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:00:55.416 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:00:55.418 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:00:59.410 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.281 seconds (JVM running for 5.442) 
+09:01:38.750 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:01:42.073 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
+09:05:21.026 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 14404 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:05:21.027 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:05:21.029 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:05:24.856 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.115 seconds (JVM running for 5.28) 
+09:07:00.803 [http-nio-8787-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:07:04.248 [http-nio-8787-exec-3] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
+09:07:22.260 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["user-that-does-not-exist"] 
+09:07:23.970 [http-nio-8787-exec-2] ERROR c.e.a.e.GlobalExceptionHandler - Handling CompletionException due to org.springframework.web.client.HttpClientErrorException: 404 Not Found 
+09:07:23.970 [http-nio-8787-exec-2] WARN  c.e.a.e.GlobalExceptionHandler - Unknown exception type: java.util.concurrent.CompletionException 
+09:20:56.002 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 12904 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:20:56.003 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:20:56.005 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:20:59.835 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.123 seconds (JVM running for 5.283) 
+09:21:07.341 [http-nio-8787-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:21:10.838 [http-nio-8787-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
+09:24:47.565 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 10288 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:24:47.566 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:24:47.568 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:24:51.373 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.091 seconds (JVM running for 5.23) 
+09:25:20.129 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:25:23.816 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
+09:27:03.702 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 26024 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:27:03.703 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:27:03.705 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:27:07.539 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.135 seconds (JVM running for 5.338) 
+09:27:38.967 [http-nio-8787-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:27:42.504 [http-nio-8787-exec-1] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
+09:29:48.506 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 25112 (C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads\target\classes started by a84s in C:\dev\nexi\prj-aop-v74.-ApiGitHub-AsynchronousHttpRequest-ParallelThreads) 
+09:29:48.507 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+09:29:48.509 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+09:29:52.344 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.126 seconds (JVM running for 5.289) 
+09:30:27.737 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.ApiGitHubController : getUser( ) - Input Arguments : ["jason2802"] 
+09:30:31.443 [http-nio-8787-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.ApiGitHubController : getUser( ) - Response : ["jason2802"] 
