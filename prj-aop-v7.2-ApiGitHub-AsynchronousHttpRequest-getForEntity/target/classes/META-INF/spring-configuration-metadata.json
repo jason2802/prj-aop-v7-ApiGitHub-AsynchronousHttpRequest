@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.aop.configuration.RestService",
+      "name": "restservice",
+      "type": "com.example.aop.configuration.RestService"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.aop.configuration.RestService",
+      "name": "restservice.github-endpoint",
+      "description": "A description for 'restservice.github-endpoint'",
+      "type": "java.lang.String"
+    }
+  ]
+}

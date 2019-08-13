@@ -1,0 +1,19 @@
+11:46:14.132 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 20372 (C:\dev\nexi\prj-aop-v7-ApiGitHub-AsynchronousHttpRequest\target\classes started by a84s in C:\dev\nexi\prj-aop-v7-ApiGitHub-AsynchronousHttpRequest) 
+11:46:14.141 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+11:46:14.143 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+11:46:17.927 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.15 seconds (JVM running for 5.755) 
+11:52:56.897 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 23716 (C:\dev\nexi\prj-aop-v7-ApiGitHub-AsynchronousHttpRequest\target\classes started by a84s in C:\dev\nexi\prj-aop-v7-ApiGitHub-AsynchronousHttpRequest) 
+11:52:56.900 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+11:52:56.901 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+11:53:00.414 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 3.837 seconds (JVM running for 5.03) 
+12:17:14.439 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 3080 (C:\dev\nexi\prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest\target\classes started by a84s in C:\dev\nexi\prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest) 
+12:17:14.440 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:17:14.441 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:19:06.092 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 8716 (C:\dev\nexi\prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest\target\classes started by a84s in C:\dev\nexi\prj-aop-v7.1-ApiGitHub-AsynchronousHttpRequest) 
+12:19:06.094 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:19:06.095 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:19:09.828 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.021 seconds (JVM running for 5.186) 
+12:36:31.743 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on ITPC009552 with PID 21264 (C:\dev\nexi\prj-aop-v7.2-ApiGitHub-AsynchronousHttpRequest-getForEntity\target\classes started by a84s in C:\dev\nexi\prj-aop-v7.2-ApiGitHub-AsynchronousHttpRequest-getForEntity) 
+12:36:31.744 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+12:36:31.745 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+12:36:35.784 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.348 seconds (JVM running for 5.593) 
